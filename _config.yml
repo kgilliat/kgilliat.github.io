@@ -9,16 +9,16 @@
 lang: en-US
 
 # Site title
-title: "Scriptor"
+title: "Kurtis Gilliat"
 
 # A description of your site for meta tag, search engine results.
-description: "Scriptor is a minimal, clean, modern & responsive Jekyll theme for writers"
+description: "Kurtis Gilliat, PhD"
 
 # The subpath of your site, e.g. /blog, for generating urls.
 baseurl: ""
 
 # The base hostname & protocol of your site for where absolute urls are needed.
-url: "https://scriptor-jekyll.netlify.com"
+url: "https://kgilliat.github.io"
 
 # Favicon
 favicon: images/favicon.png
@@ -32,12 +32,12 @@ navigation:
     url: /
   - text: About
     url: /about/
-  - text: Style Guide
-    url: /style-guide/
-  - text: Tags
-    url: /tags/
-  - text: Download
-    url: https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme
+  - text: CV
+    url: /curiculum-vitae/
+  - text: Research
+    url: /research/
+  - text: Teaching
+    url: /teaching/
 
 # The shortname for your Disqus site to enable comments.
 disqus: justgoodthemes
