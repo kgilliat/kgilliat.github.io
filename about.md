@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: column_page
 title: About this blog
 description: An optional about page for Scriptor Jekyll theme
 feature_image: images/about.jpg
