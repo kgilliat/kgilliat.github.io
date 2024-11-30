@@ -31,13 +31,13 @@ navigation:
   - text: Home
     url: /
   - text: About
-    url: /about/
+    url: /about
   - text: CV
-    url: /curiculum-vitae/
+    url: /curiculum-vitae
   - text: Research
-    url: /research/
+    url: /research
   - text: Teaching
-    url: /teaching/
+    url: /teaching
 
 # The shortname for your Disqus site to enable comments.
 disqus: justgoodthemes
