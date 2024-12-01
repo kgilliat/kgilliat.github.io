@@ -10,7 +10,7 @@ layout: default
     <div class="post-content">
       <div class="columns">
         <div class="column-left">
-            {{ content | markdownify }}
+          {{ content | markdownify }}
         </div><!-- .column-left -->
         <div class="column-right">
           {% if page.feature_image and page.feature_image != "" %}
@@ -27,11 +27,12 @@ layout: default
 <style>
   .columns {
     display: flex;
-    gap: 20px; /* Add gap between columns */
+    gap: 80px; /* Add gap between columns */
+    align-items: center; /* Center the content vertically */
   }
   .column-left, .column-right {
     flex: 1;
-    padding: 20px;
+    padding: 5px;
   }
   .post-thumbnail img {
     max-width: 100%;
