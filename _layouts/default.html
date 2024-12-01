@@ -18,17 +18,26 @@
   <div id="page" class="site">
     <div class="inner">
       {% include header.html %}
-      <div class="description-section">
-        <div class="columns">
-          <div class="column-left">
-            <img src="{{ site.favicon | relative_url }}" alt="Site Image">
-          </div><!-- .column-left -->
-          <div class="column-right">
-            <p>{{ page.description | default: site.description }}</p>
-          </div><!-- .column-right -->
-        </div><!-- .columns -->
-      </div><!-- .description-section -->
-      {{content}}
+      <div class="columns">
+        <div class="column-left">
+          <img src="{{ site.favicon | relative_url }}" alt="Site Image">
+        </div><!-- .column-left -->
+        <div class="column-right">
+          <p>{{ page.description | default: site.description }}</p>
+        </div><!-- .column-right -->
+      </div><!-- .columns -->
+      <div class="columns">
+        <div class="column-left">
+          {{ content }}
+        </div><!-- .column-left -->
+        <div class="column-right">
+          {% if page.feature_image and page.feature_image != "" %}
+          <figure class="post-thumbnail image-card width-wide">
+            <img src="{{ page.feature_image | relative_url }}" alt="{{ page.title }}">
+          </figure><!-- .post-thumbnail -->
+          {% endif %}
+        </div><!-- .column-right -->
+      </div><!-- .columns -->
       {% include footer.html %}
     </div><!-- .inner -->
   </div><!-- .site -->
