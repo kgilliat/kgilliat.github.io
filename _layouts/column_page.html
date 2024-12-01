@@ -4,12 +4,12 @@ layout: default
 
 <main class="main-content fadeInDown delay_075s">
   <article class="post">
-    <header class="post-header">
-      <h1 class="post-title">{{ page.title }}</h1>
-    </header><!-- .post-header -->
     <div class="post-content">
       <div class="columns">
         <div class="column-left">
+          <header class="post-header">
+            <h1 class="post-title">{{ page.title }}</h1>
+          </header><!-- .post-header -->
           {{ content | markdownify }}
         </div><!-- .column-left -->
         <div class="column-right">
@@ -27,7 +27,7 @@ layout: default
 <style>
   .columns {
     display: flex;
-    gap: 80px; /* Add gap between columns */
+    gap: 20px; /* Add gap between columns */
     align-items: center; /* Center the content vertically */
   }
   .column-left, .column-right {
