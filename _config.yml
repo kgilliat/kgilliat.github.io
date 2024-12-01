@@ -35,6 +35,8 @@ navigation:
     url: /research
   - text: Teaching
     url: /teaching
+  - text: Format Guide
+    url: /formatting-guide
 
 # The shortname for your Disqus site to enable comments.
 disqus: justgoodthemes
