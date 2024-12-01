@@ -7,17 +7,17 @@ layout: default
     <div class="post-content">
       <div class="columns">
         <div class="column-left">
-          <header class="post-header">
-            <h1 class="post-title">{{ page.title }}</h1>
-          </header><!-- .post-header -->
-          {{ content | markdownify }}
-        </div><!-- .column-left -->
-        <div class="column-right">
           {% if page.feature_image and page.feature_image != "" %}
           <figure class="post-thumbnail image-card width-wide">
             <img src="{{ page.feature_image | relative_url }}" alt="{{ page.title }}">
           </figure><!-- .post-thumbnail -->
           {% endif %}
+        </div><!-- .column-left -->
+        <div class="column-right">
+          <header class="post-header">
+            <h1 class="post-title">{{ page.title }}</h1>
+          </header><!-- .post-header -->
+          {{ content | markdownify }}
         </div><!-- .column-right -->
       </div><!-- .columns -->
     </div><!-- .post-content -->
@@ -30,8 +30,12 @@ layout: default
     gap: 100px; /* Add gap between columns */
     align-items: center; /* Center the content vertically */
   }
-  .column-left, .column-right {
-    flex: 1;
+  .column-left {
+    flex: 1; /* 1/3rd of the width */
+    padding: 5px;
+  }
+  .column-right {
+    flex: 2; /* 2/3rds of the width */
     padding: 5px;
   }
   .post-thumbnail img {
