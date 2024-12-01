@@ -12,7 +12,6 @@ lang: en-US
 title: "Kurtis Gilliat"
 
 # A description of your site for meta tag, search engine results.
-description: "Kurtis Gilliat, PhD"
 
 # The subpath of your site, e.g. /blog, for generating urls.
 baseurl: ""
