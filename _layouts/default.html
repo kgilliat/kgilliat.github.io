@@ -6,8 +6,6 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html', '' | absolute_url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }} Feed"
-    href="{{ '/feed.xml' | absolute_url }}">
   {% if site.favicon and site.favicon != "" %}
   <link rel="shortcut icon" href="{{ site.favicon | relative_url }}" type="image/png" />
   {% endif %}
@@ -20,6 +18,16 @@
   <div id="page" class="site">
     <div class="inner">
       {% include header.html %}
+      <div class="description-section">
+        <div class="columns">
+          <div class="column-left">
+            <img src="{{ site.favicon | relative_url }}" alt="Site Image">
+          </div><!-- .column-left -->
+          <div class="column-right">
+            <p>{{ page.description | default: site.description }}</p>
+          </div><!-- .column-right -->
+        </div><!-- .columns -->
+      </div><!-- .description-section -->
       {{content}}
       {% include footer.html %}
     </div><!-- .inner -->
@@ -31,6 +39,20 @@
   {% endif %}
   <script src="{{ '/assets/js/plugins.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/custom.js' | relative_url }}"></script>
+
+  <style>
+    .columns {
+      display: flex;
+    }
+    .column-left {
+      flex: 1;
+      padding-right: 20px;
+    }
+    .column-right {
+      flex: 1;
+      padding-left: 20px;
+    }
+  </style>
 
 </body>
 </html>
