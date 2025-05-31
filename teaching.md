@@ -5,7 +5,7 @@ description: A tags page for Scriptor Jekyll theme
 ---
 ## Teaching Experience
 ### UC San Diego
-+ Econ 120B: Econometrics B
++ Econ 120B: Econometrics II
 + Econ 152: Public Economics
 + Econ 159: Economic History of the United States
 + Econ 5: Data Analytics for the Social Sciences
