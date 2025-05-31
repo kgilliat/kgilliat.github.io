@@ -3,3 +3,15 @@ layout: page
 title: Teaching
 description: A tags page for Scriptor Jekyll theme
 ---
+## Teaching Experience
+
+## Undergraduate Research Lab
+In addition to my work as a teaching assistant, I co-founded and lead an Undergraduate Research Lab in Economics at UC San Diego. The lab connects motivated undergraduates with graduate students working on active research projects. The goal is to give undergraduates early, meaningful exposure to academic research while helping graduate students get support on data cleaning, literature reviews, and preliminary analysis.
+
+Since its launch in 2022, the lab has:
+
++ Paired hundreds of undergraduates with graduate mentors
++ Helped students develop technical skills in Python, Stata, and R
++ Created a pathway for students to pursue honors theses, pre-doctoral positions, and PhD programs
+
+Many participating students have gone on to pursue graduate training or research assistant roles at leading institutions.
