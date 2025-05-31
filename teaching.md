@@ -7,7 +7,7 @@ description: A tags page for Scriptor Jekyll theme
 ### UC San Diego
 + Econ 120B: Econometrics B
 + Econ 152: Public Economics
-+ Econ 159: Econommic History of the United States
++ Econ 159: Economic History of the United States
 + Econ 5: Data Analytics for the Social Sciences
 
 ### Brigham Young University
