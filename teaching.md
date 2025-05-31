@@ -16,7 +16,7 @@ description: A tags page for Scriptor Jekyll theme
 + Econ 257: International Trade and Finance
 
 ## Undergraduate Research Lab
-In addition to my work as a teaching assistant, I co-founded and lead an Undergraduate Research Lab in Economics at UC San Diego. The lab connects motivated undergraduates with graduate students working on active research projects. The goal is to give undergraduates early, meaningful exposure to academic research while helping graduate students get support on data cleaning, literature reviews, and preliminary analysis.
+In addition to my work as a teaching assistant, I co-founded and lead the [Undergraduate-Graduate Economic Research Lab](https://economics.ucsd.edu/undergraduate-program/resources/undergraduate-graduate-research-lab/index.html) at UC San Diego. The lab connects motivated undergraduates with graduate students working on active research projects. The goal is to give undergraduates early, meaningful exposure to academic research while helping graduate students get support on data cleaning, literature reviews, and preliminary analysis.
 
 Since its launch in 2022, the lab has:
 
