@@ -3,7 +3,7 @@ layout: page
 title: Research
 description: A tags page for Scriptor Jekyll theme
 ---
-## Work in Progress
+## Works in Progress
 + From Pews to Polls: The Effects of Church Peer Groups on Political Behavior (with [Jacob Brown](https://jacobrbrown.com))
 + It Takes a Village to Raise a Business: How Congregational Networks Facilitate Entrepreneurship (with Jon Palmer)
 + Marriage Markets and Church Building: The Economics of Polygamy in the American West
