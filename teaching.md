@@ -4,7 +4,15 @@ title: Teaching
 description: A tags page for Scriptor Jekyll theme
 ---
 ## Teaching Experience
-+ Econ 120B Intro to Econometrics - *UC San Diego*
+### UC San Diego
++ Econ 120B: Econometrics B (*taught by Gordan Dahl*)
++ Econ 152: Public Economics (*taught by Itzik Fadlon*)
++ Econ 159: Econommic History of the United States (*taught by Mark Hendrickson*)
++ Econ 5: Data Analytics for the Social Sciences (*taught by David Arnold*)
+
+### Brigham Young University
++ Econ 380: Intermediate Microeconomic Theory (*taught by James Cardon*)
++ Econ 442: Behavioral Economics (*taught by Joseph Price*)
 
 ## Undergraduate Research Lab
 In addition to my work as a teaching assistant, I co-founded and lead an Undergraduate Research Lab in Economics at UC San Diego. The lab connects motivated undergraduates with graduate students working on active research projects. The goal is to give undergraduates early, meaningful exposure to academic research while helping graduate students get support on data cleaning, literature reviews, and preliminary analysis.
