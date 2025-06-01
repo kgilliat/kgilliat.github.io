@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CV
+title: Curiculum Vitae
 description: A tags page for Scriptor Jekyll theme
 ---
 
