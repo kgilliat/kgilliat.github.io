@@ -1,0 +1,12 @@
+race_id,url,table_index,table_type,row_count
+386000,https://ca.milesplit.com/meets/214032-oakmont-invitational-2015/results/386000/formatted/,1,individual,137
+386000,https://ca.milesplit.com/meets/214032-oakmont-invitational-2015/results/386000/formatted/,2,team,18
+866502,https://ca.milesplit.com/meets/488521-cif-state-cross-country-championships-2022/results/866502/formatted/,1,individual,212
+866502,https://ca.milesplit.com/meets/488521-cif-state-cross-country-championships-2022/results/866502/formatted/,2,team,25
+846055,https://ca.milesplit.com/meets/493916-cvaa-preview-2022/results/846055/formatted/,1,unknown_headers,440
+846105,https://ca.milesplit.com/meets/494231-cvl-meet-3-ace-2022/results/846105/formatted/,,"error - Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""table"") to be visible
+",
+846288,https://ca.milesplit.com/meets/493916-cvaa-preview-2022/results/846288/formatted/,1,individual,75
+846288,https://ca.milesplit.com/meets/493916-cvaa-preview-2022/results/846288/formatted/,2,team,6
