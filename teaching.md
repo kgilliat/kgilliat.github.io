@@ -15,13 +15,16 @@ Many participating students have gone on to pursue graduate training or research
 
 ## Instructor
 ### UC San Diego
-+ Econ 5: Data Analytics for the Social Sciences (Associate Instructor, Fall 2025)
++ Data Analytics for Social Scientists (Associate Instructor)
 
 ## Teaching Assistant
 ### UC San Diego
-+ Econ 120B: Econometrics II
-+ Econ 152: Public Economics
-+ Econ 159: Economic History of the United States
++ Econometrics II
++ Public Economics
++ Principles of Macroeconomics
++ Data Analytics for Social Scientists
++ Long Run Macroeconomics
++ Economic History of the United States
 
 ### Brigham Young University
 + Econ 380: Intermediate Microeconomic Theory
