@@ -5,11 +5,20 @@ title: Kurtis Gilliat
 
 <main class="main-content fadeInDown delay_075s">
   <article class="post profile-post">
-    <div class="post-content profile">
-      <figure class="profile-photo">
-        <img src="{{ '/images/headshot.jpg' | relative_url }}" alt="Kurtis Gilliat">
-      </figure>
-      <div class="profile-bio">
+    <div class="post-content profile-layout">
+      <aside class="profile-sidebar">
+        <figure class="profile-photo">
+          <img src="{{ '/images/headshot.jpg' | relative_url }}" alt="Kurtis Gilliat">
+        </figure>
+        <h3 class="profile-name">Kurtis Gilliat</h3>
+        <p class="profile-affiliation">Ph.D. Candidate<br>Department of Economics<br>University of California San Diego</p>
+        <p class="profile-location">San Diego, CA</p>
+        <ul class="profile-links">
+          <li><a href="mailto:kgilliat@ucsd.edu">kgilliat@ucsd.edu</a></li>
+          <li><a href="https://scholar.google.com/citations?user=aABedhQAAAAJ&hl=en">Google Scholar</a></li>
+        </ul>
+      </aside>
+      <div class="profile-main">
         <p>Hi. My name is Kurtis Gilliat. I am a fifth-year PhD student in Economics at the University of California San Diego (UCSD). My research interests are in labor economics and political economy, with a special interest in social networks and peer groups.</p>
 
         <p>My current research uses quasi-experimental variation in the composition of church congregations to study how peer groups influence a variety of individual outcomes. In one project I study the effects of peers on political behavior and in another I study the effects of peers on entrepreneurial outcomes.</p>
@@ -21,23 +30,61 @@ title: Kurtis Gilliat
 </main>
 
 <style>
-  .profile {
-    text-align: center;
+  .profile-layout {
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+  }
+  .profile-sidebar {
+    flex: 0 0 200px;
   }
   .profile-photo {
-    margin: 0 auto 1.5em;
-    width: 200px;
+    margin: 0 0 1em;
   }
   .profile-photo img {
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     object-fit: cover;
-    margin: 0;
-  }
-  .profile-bio {
-    text-align: left;
-    max-width: 640px;
+    display: block;
     margin: 0 auto;
+  }
+  .profile-name {
+    margin: 0 0 0.5em;
+    font-size: 1.25rem;
+    text-align: center;
+  }
+  .profile-affiliation,
+  .profile-location {
+    font-size: 0.85rem;
+    margin: 0 0 0.75em;
+    text-align: center;
+    line-height: 1.45;
+  }
+  .profile-links {
+    list-style: none;
+    padding: 0;
+    margin: 1em 0 0;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  .profile-links li {
+    margin-bottom: 0.35em;
+  }
+  .profile-main {
+    flex: 1;
+    min-width: 0;
+  }
+  .profile-main p:first-child {
+    margin-top: 0;
+  }
+  @media only screen and (max-width: 700px) {
+    .profile-layout {
+      flex-direction: column;
+      gap: 1.5em;
+    }
+    .profile-sidebar {
+      flex: 0 0 auto;
+    }
   }
 </style>
