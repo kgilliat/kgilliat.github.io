@@ -3,7 +3,7 @@ layout: page
 title: Teaching
 ---
 ## Undergraduate Research Lab
-In 2023, I co-founded and lead the [Undergraduate-Graduate Economic Research Lab](https://economics.ucsd.edu/undergraduate-program/resources/undergraduate-graduate-research-lab/index.html) at UC San Diego. The lab connects motivated undergraduates with graduate students working on active research projects. Our goal is to give undergraduates early, meaningful exposure to academic research while helping graduate students get support on data cleaning, literature reviews, and preliminary analysis.
+In 2023, I co-founded the [Undergraduate-Graduate Economic Research Lab](https://economics.ucsd.edu/undergraduate-program/resources/undergraduate-graduate-research-lab/index.html) at UC San Diego. The lab connects motivated undergraduates with graduate students working on active research projects. Our goal is to give undergraduates early, meaningful exposure to academic research while helping graduate students get support on data cleaning, literature reviews, and preliminary analysis.
 
 Since its launch, the lab has:
 
