@@ -11,7 +11,19 @@ title: Research
     font-weight: bold;
     color: #1a3a6c;
     user-select: none;
+    list-style: none;
+  }
+  details.abstract summary::-webkit-details-marker {
+    display: none;
+  }
+  details.abstract summary::before {
+    content: "\25B8";
     display: inline-block;
+    margin-right: 0.45em;
+    transition: transform 0.15s ease;
+  }
+  details.abstract[open] summary::before {
+    transform: rotate(90deg);
   }
   details.abstract summary:hover {
     text-decoration: underline;
@@ -37,4 +49,4 @@ title: Research
 + Marriage Markets and Church Building: The Economics of Polygamy in the American West
 
 ## Other Publications
-+ [Mortality Risk and Fine Particulate Air Pollution in a Large, Representative Cohort of U.S. Adults](https://ehp.niehs.nih.gov/doi/full/10.1289/EHP4438) with C. Arden Pope III, Jacob S. Lefler, Majid Ezzati, Joshua D. Higbee, Julian D. Marshall, Sun-Young Kim, Matthew Bechle, Spencer E. Vernon, Allen L. Robinson, and Richard T. Burnett. *Environmental Health Perspectives (2019).*
++ [Mortality Risk and Fine Particulate Air Pollution in a Large, Representative Cohort of U.S. Adults](https://pmc.ncbi.nlm.nih.gov/articles/PMC6792459/) with C. Arden Pope III, Jacob S. Lefler, Majid Ezzati, Joshua D. Higbee, Julian D. Marshall, Sun-Young Kim, Matthew Bechle, Spencer E. Vernon, Allen L. Robinson, and Richard T. Burnett. *Environmental Health Perspectives (2019).*
