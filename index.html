@@ -1,10 +1,39 @@
 ---
-layout: column_page
-title: About
-feature_image: images/headshot.jpg
+layout: default
+title: Kurtis Gilliat
 ---
-Hi. My name is Kurtis Gilliat. I am a fifth-year PhD student in Economics at the University of California San Diego (UCSD). My research interests are in labor economics and political economy, with a special interest in social networks and peer groups. 
 
-My current research uses quasi-experimental variation in the composition of church congregations to study how peer groups influence a variety of individual outcomes. In one project I study the effects of peers on political behavior and in another other I study the effects of peers on entrepreneurial outcomes. 
+<main class="main-content fadeInDown delay_075s">
+  <article class="post profile-post">
+    <div class="post-content profile">
+      <figure class="profile-photo">
+        <img src="{{ '/images/headshot.jpg' | relative_url }}" alt="Kurtis Gilliat">
+      </figure>
+      <div class="profile-bio">
+        {{ content }}
+      </div>
+    </div>
+  </article>
+</main>
 
-Prior to coming to UCSD, I worked as a Pre-Doctoral Research Fellow at the University of Chicago's Center for the Economics of Human Development. I hold a Bachelor's Degree in Economics and Mathematics from Brigham Young University.
+<style>
+  .profile {
+    text-align: center;
+  }
+  .profile-photo {
+    margin: 0 auto 1.5em;
+    width: 200px;
+  }
+  .profile-photo img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 0;
+  }
+  .profile-bio {
+    text-align: left;
+    max-width: 640px;
+    margin: 0 auto;
+  }
+</style>
