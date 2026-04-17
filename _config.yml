@@ -30,7 +30,7 @@ navigation:
   - text: Home
     url: /
   - text: CV
-    url: /curiculum-vitae
+    url: /curriculum-vitae
   - text: Research
     url: /research
   - text: Teaching
