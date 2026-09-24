@@ -35,7 +35,7 @@ title: Research
 </style>
 
 ## Job Market Paper
-**[The Partisan Effects of Religious Peer Groups]({{ '/papers/church_peers_on_politics_Gilliat_Brown.pdf' | relative_url }})** (with [Jacob Brown](https://jacobrbrown.com))
+**[Partisan Effects of Religious Peer Groups]({{ '/papers/church_peers_on_politics_Gilliat_Brown.pdf' | relative_url }})** (with [Jacob Brown](https://jacobrbrown.com))
 
 *Presented at APSA, Boston (2026); ACLEC, UC Berkeley (2026); IRES Workshop, Chapman University (2026); ASREC Conference, Chapman University (2026); SOCAE Conference, UCLA (2025).*
 
