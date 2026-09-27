@@ -53,3 +53,8 @@ I served as a job reference for many former RAs and wrote letters for several. S
   </a>
   <figcaption>My undergraduate RAs by quarter, new and returning. Click to enlarge.</figcaption>
 </figure>
+
+<figure class="lab-figure">
+  <img src="{{ '/images/lab_research_team_sp25.jpg' | relative_url }}" alt="My undergraduate research team posing together in a classroom, Spring 2025.">
+  <figcaption>My research team &ndash; Spring 2025</figcaption>
+</figure>
