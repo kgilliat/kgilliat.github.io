@@ -35,6 +35,8 @@ navigation:
     url: /research
   - text: Teaching
     url: /teaching
+  - text: Undergrad Lab
+    url: /undergrad-lab
  # - text: Format Guide
  #   url: /formatting-guide
 
