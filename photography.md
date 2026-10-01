@@ -37,7 +37,7 @@ title: Photography
   }
 </style>
 
-<p class="gallery-intro">I bring a camera along when I hike and travel. These are a few favorites from the last several years &mdash; mostly national parks and coastlines, with the occasional city at dusk. Click any photo to see it larger.</p>
+<p class="gallery-intro">These are some of my favorite pictures I have taken from the past few years, mostly while hiking. Click any photo to see it larger.</p>
 
 <div class="gallery">
   <figure>
