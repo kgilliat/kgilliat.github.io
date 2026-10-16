@@ -23,22 +23,34 @@ title: Research
   }
   .paper-meta.presented {
     font-size: 0.8em;
-    margin-top: 1em;
+    margin-top: 1.1em;
+  }
+  .paper-split {
+    display: flex;
+    gap: 1.6em;
+    align-items: flex-start;
+    margin-top: 0.9em;
+  }
+  .paper-split-text {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+  .paper-split-text > *:first-child {
+    margin-top: 0;
+  }
+  .paper-split-text p {
+    margin-top: 0.75em;
+    text-align: justify;
   }
   .abstract-label {
     font-weight: bold;
     color: #1a3a6c;
-    margin-top: 0.9em;
-  }
-  .abstract-body p {
-    margin-top: 0.75em;
-    text-align: justify;
   }
   .paper-figure {
-    margin: 1.2em 0 0;
+    margin: 0;
   }
-  .paper-figure.narrow {
-    max-width: 430px;
+  .paper-figure.side {
+    flex: 0 0 36%;
   }
   .paper-figure img {
     width: 100%;
@@ -48,7 +60,7 @@ title: Research
     border-radius: 3px;
   }
   .paper-figure figcaption {
-    font-size: 0.78rem;
+    font-size: 0.75rem;
     color: #666;
     margin-top: 0.5em;
     line-height: 1.4;
@@ -78,27 +90,38 @@ title: Research
   details.abstract summary:hover {
     text-decoration: underline;
   }
-  details.abstract p {
+  details.abstract > p {
     margin-top: 0.75em;
     text-align: justify;
   }
+  @media only screen and (max-width: 700px) {
+    .paper-split {
+      flex-direction: column;
+      gap: 1.2em;
+    }
+    .paper-figure.side {
+      flex: 0 0 auto;
+      max-width: 340px;
+    }
+  }
 </style>
-
 ## Job Market Paper
 
 <div class="paper">
   <div class="paper-title"><a href="{{ '/papers/church_peers_on_politics_Gilliat_Brown.pdf' | relative_url }}">Partisan Effects of Religious Peer Groups</a></div>
   <div class="paper-meta">with <a href="https://jacobrbrown.com">Jacob Brown</a></div>
-  <div class="abstract-label">Abstract</div>
-  <div class="abstract-body">
-    <p>How people shape each other's political affiliation is a central question in the social sciences&mdash;with broader implications for partisan sorting and polarization&mdash;but is difficult to answer because people select into peer groups. We study a natural experiment in which the Church of Jesus Christ of Latter-day Saints periodically redraws congregation assignment boundaries, reassigning members to new church peers. Linking records on every Utah registered voter from 2012&ndash;2021 to digitized congregation maps, we employ a spatial difference-in-discontinuities design that compares changes in party registration among voters who live near one another and start off in the same congregation but are assigned to different congregations. Voters conform to their new peers: Unaffiliated voters assigned to more Republican congregations become more likely to register Republican, and Republicans assigned to more Democratic congregations become more likely to leave the party. Reassigned boundaries show no relationship with prior registration changes, supporting the design&rsquo;s identifying assumption. The effects are not explained by correlated peer characteristics such as race or by the partisanship of congregation leaders. Effects are strongest between demographically similar peers, the members most likely to become friends, suggesting that influence operates through personal relationships among co-congregants.</p>
+  <div class="paper-split">
+    <div class="paper-split-text">
+      <div class="abstract-label">Abstract</div>
+      <p>How people shape each other's political affiliation is a central question in the social sciences&mdash;with broader implications for partisan sorting and polarization&mdash;but is difficult to answer because people select into peer groups. We study a natural experiment in which the Church of Jesus Christ of Latter-day Saints periodically redraws congregation assignment boundaries, reassigning members to new church peers. Linking records on every Utah registered voter from 2012&ndash;2021 to digitized congregation maps, we employ a spatial difference-in-discontinuities design that compares changes in party registration among voters who live near one another and start off in the same congregation but are assigned to different congregations. Voters conform to their new peers: Unaffiliated voters assigned to more Republican congregations become more likely to register Republican, and Republicans assigned to more Democratic congregations become more likely to leave the party. Reassigned boundaries show no relationship with prior registration changes, supporting the design&rsquo;s identifying assumption. The effects are not explained by correlated peer characteristics such as race or by the partisanship of congregation leaders. Effects are strongest between demographically similar peers, the members most likely to become friends, suggesting that influence operates through personal relationships among co-congregants.</p>
+    </div>
+    <figure class="paper-figure side">
+      <a href="{{ '/images/figures/jmp_ward_boundary_change.png' | relative_url }}">
+        <img src="{{ '/images/figures/jmp_ward_boundary_change.png' | relative_url }}" width="900" height="1627" alt="Two stacked maps of the same area. The 2014 map shows four colored congregation areas; the 2015 map overlays new boundaries in bold black, splitting the area into five.">
+      </a>
+      <figcaption>Example of a ward boundary change. Four wards in 2014 become five in 2015, mixing members who previously attended different congregations.</figcaption>
+    </figure>
   </div>
-  <figure class="paper-figure">
-    <a href="{{ '/images/figures/jmp_ward_boundary_change.png' | relative_url }}">
-      <img src="{{ '/images/figures/jmp_ward_boundary_change.png' | relative_url }}" width="1950" height="850" alt="Two maps of the same area side by side. The 2014 map shows four colored congregation areas; the 2015 map overlays new boundaries in bold black, splitting the area into five.">
-    </a>
-    <figcaption>Example of a ward boundary change. Four wards in 2014 become five in 2015, mixing members who previously attended different congregations.</figcaption>
-  </figure>
   <div class="paper-meta presented">Presented at APSA, Boston (2026); ACLEC, UC Berkeley (2026); IRES Workshop, Chapman University (2026); ASREC Conference, Chapman University (2026); SOCAE Conference, UCLA (2025).</div>
 </div>
 
@@ -138,16 +161,19 @@ title: Research
   <div class="paper-meta"><em>Environmental Health Perspectives</em> (2019)</div>
   <details class="abstract">
     <summary>Abstract</summary>
-      <p><strong>Background:</strong> Evidence indicates that air pollution contributes to cardiopulmonary mortality. There is ongoing debate regarding the size and shape of the pollution&ndash;mortality exposure&ndash;response relationship. There are also growing appeals for estimates of pollution&ndash;mortality relationships that use public data and are based on large, representative study cohorts.</p>
-      <p><strong>Objectives:</strong> Our goal was to evaluate fine particulate matter air pollution (PM<sub>2.5</sub>) and mortality using a large cohort that is representative of the U.S. population and is based on public data. Additional objectives included exploring model sensitivity, evaluating relative effects across selected subgroups, and assessing the shape of the PM<sub>2.5</sub>&ndash;mortality relationship.</p>
-      <p><strong>Methods:</strong> National Health Interview Surveys (1986&ndash;2014), with mortality linkage through 2015, were used to create a cohort of 1,599,329 U.S. adults and a subcohort with information on smoking and body mass index (BMI) of 635,539 adults. Data were linked with modeled ambient PM<sub>2.5</sub> at the census-tract level. Cox proportional hazards models were used to estimate PM<sub>2.5</sub>&ndash;mortality hazard ratios for all-cause and specific causes of death while controlling for individual risk factors and regional and urban versus rural differences. Sensitivity and subgroup analyses were conducted and the shape of the PM<sub>2.5</sub>&ndash;mortality relationship was explored.</p>
-      <p><strong>Results:</strong> Estimated mortality hazard ratios, per 10 &micro;g/m<sup>3</sup> long-term exposure to PM<sub>2.5</sub>, were 1.12 (95% CI: 1.08, 1.15) for all-cause mortality, 1.23 (95% CI: 1.17, 1.29) for cardiopulmonary mortality, and 1.12 (95% CI: 1.00, 1.26) for lung cancer mortality. In general, PM<sub>2.5</sub>&ndash;mortality associations were consistently positive for all-cause and cardiopulmonary mortality across key modeling choices and across subgroups of sex, age, race-ethnicity, income, education levels, and geographic regions.</p>
-      <p><strong>Discussion:</strong> This large, nationwide, representative cohort of U.S. adults provides robust evidence that long-term PM<sub>2.5</sub> exposure contributes to cardiopulmonary mortality risk. The ubiquitous and involuntary nature of exposures and the broadly observed effects across subpopulations underscore the public health importance of breathing clean air.</p>
+    <div class="paper-split">
+      <div class="paper-split-text">
+        <p><strong>Background:</strong> Evidence indicates that air pollution contributes to cardiopulmonary mortality. There is ongoing debate regarding the size and shape of the pollution&ndash;mortality exposure&ndash;response relationship. There are also growing appeals for estimates of pollution&ndash;mortality relationships that use public data and are based on large, representative study cohorts.</p>
+        <p><strong>Methods:</strong> National Health Interview Surveys (1986&ndash;2014), with mortality linkage through 2015, were used to create a cohort of 1,599,329 U.S. adults and a subcohort with information on smoking and body mass index (BMI) of 635,539 adults. Data were linked with modeled ambient PM<sub>2.5</sub> at the census-tract level. Cox proportional hazards models were used to estimate PM<sub>2.5</sub>&ndash;mortality hazard ratios for all-cause and specific causes of death while controlling for individual risk factors and regional and urban versus rural differences.</p>
+        <p><strong>Results:</strong> Estimated mortality hazard ratios, per 10 &micro;g/m<sup>3</sup> long-term exposure to PM<sub>2.5</sub>, were 1.12 (95% CI: 1.08, 1.15) for all-cause mortality, 1.23 (95% CI: 1.17, 1.29) for cardiopulmonary mortality, and 1.12 (95% CI: 1.00, 1.26) for lung cancer mortality. In general, PM<sub>2.5</sub>&ndash;mortality associations were consistently positive for all-cause and cardiopulmonary mortality across key modeling choices and across subgroups of sex, age, race-ethnicity, income, education levels, and geographic regions.</p>
+        <p><strong>Discussion:</strong> This large, nationwide, representative cohort of U.S. adults provides robust evidence that long-term PM<sub>2.5</sub> exposure contributes to cardiopulmonary mortality risk. The ubiquitous and involuntary nature of exposures and the broadly observed effects across subpopulations underscore the public health importance of breathing clean air.</p>
+      </div>
+      <figure class="paper-figure side">
+        <a href="{{ '/images/figures/ehp_pm25_concentration_response.png' | relative_url }}">
+          <img src="{{ '/images/figures/ehp_pm25_concentration_response.png' | relative_url }}" width="900" height="1155" alt="Two stacked line charts showing hazard ratios rising with fine particulate concentration, for all-cause mortality in panel A and cardiopulmonary mortality in panel B, each with a shaded 95 percent confidence band.">
+        </a>
+        <figcaption>Estimated concentration&ndash;response associations between PM<sub>2.5</sub> and all-cause (A) and cardiopulmonary (B) mortality.</figcaption>
+      </figure>
+    </div>
   </details>
-  <figure class="paper-figure narrow">
-    <a href="{{ '/images/figures/ehp_pm25_concentration_response.png' | relative_url }}">
-      <img src="{{ '/images/figures/ehp_pm25_concentration_response.png' | relative_url }}" width="900" height="1155" alt="Two stacked line charts showing hazard ratios rising with fine particulate concentration, for all-cause mortality in panel A and cardiopulmonary mortality in panel B, each with a shaded 95 percent confidence band.">
-    </a>
-    <figcaption>Estimated concentration&ndash;response associations between PM<sub>2.5</sub> and all-cause (A) and cardiopulmonary (B) mortality.</figcaption>
-  </figure>
 </div>
