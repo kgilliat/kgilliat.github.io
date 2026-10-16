@@ -45,10 +45,17 @@ title: Research
 </details>
 
 ## Selected Works in Progress
-+ More Wives Than One: The Heterogeneous Effects of Polygamy on Women and Children
-+ How Peers, Places, and Selection Drive Spatial Patterns in Upward Mobility
-+ Human Capital Beyond School: The Value Added of Non-School Institutions (with Emileigh Harrison and Anthony Yim)
-+ How Out-Group Contact Shapes Affect and Policy Preferences (with John Holbein and Hans Hassell)
+<ul>
+  <li>How Childhood Peer Groups Shape Long-Run Outcomes</li>
+  <li>Marriage Markets and Church Building: The Economics of Polygamy in the American West</li>
+  <li>Human Capital Beyond School: The Value Added of Non-School Institutions (with Emileigh Harrison and Anthony Yim)
+    <details class="abstract">
+      <summary>Abstract</summary>
+      <p>Children build skills not only at home and in school, but also through organized social institutions outside school. Congregations, youth organizations, and other community institutions create repeated interactions with peers and adults, transmit information and norms, and provide mentoring and social support. Yet families select into these institutions, making their contribution to human-capital formation difficult to identify. We overcome this selection problem by exploiting a distinctive feature of the LDS Church: much like public schools assign students to geographically defined attendance zones, the Church assigns families to geographically defined congregations, called wards. Both ward and school boundaries are redrawn over time, creating changes in institutional assignment that do not require families to move. This project estimates social-institution value added, defined as the contribution of assignment to a non-school social institution to children&rsquo;s academic progress, and benchmarks its magnitude against traditional measures of school value added. We are currently in the process of applying for data access to Utah administrative K&ndash;12 records which will then be linked to time-varying ward and school boundaries. A cross-classified fixed-effects model would estimate ward and school contributions to standardized test-score growth, with identification and validation coming from nonmoving students whose ward or school assignment changes when boundaries are redrawn. We will then investigate mechanisms by examining whether social-institution value added is related to changes in peer composition, exposure to different adult role models and leaders, and the degree of overlap between students&rsquo; ward and school networks.</p>
+    </details>
+  </li>
+  <li>How Out-Group Contact Shapes Affect and Policy Preferences (with John Holbein and Hans Hassell)</li>
+</ul>
 
 ## Other Publications
 + [Mortality Risk and Fine Particulate Air Pollution in a Large, Representative Cohort of U.S. Adults](https://pmc.ncbi.nlm.nih.gov/articles/PMC6792459/) with C. Arden Pope III, Jacob S. Lefler, Majid Ezzati, Joshua D. Higbee, Julian D. Marshall, Sun-Young Kim, Matthew Bechle, Spencer E. Vernon, Allen L. Robinson, and Richard T. Burnett. *Environmental Health Perspectives (2019).*
