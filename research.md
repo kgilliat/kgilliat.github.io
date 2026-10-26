@@ -52,9 +52,6 @@ title: Research
   .paper-figure.side {
     flex: 0 0 36%;
   }
-  .paper-figure.wide {
-    margin-top: 1.1em;
-  }
   .paper-figure img {
     width: 100%;
     height: auto;
@@ -134,12 +131,16 @@ title: Research
   <div class="paper-title">Out-Group Contact and Religious Switching</div>
   <details class="abstract">
     <summary>Abstract</summary>
-    <p>How does out-group contact shape religious switching? The question is hard to study because shocks to contact are rare and religion is seldom measured at the granular level contact effects require. We study Latter-day Saint (LDS) Utah, where the religious divide was unusually salient, records of religious affiliation are unusually rich, and contact with other faiths can be observed as it grew from close to zero. The transcontinental railroad changed the territory&rsquo;s religious composition quickly with the non-LDS share of residents in Salt Lake City and Ogden rising from about 4 percent in 1870 to 14 percent by 1880. Because LDS church members migrated to Utah in pioneer companies, we identify initial religious affiliation from presence in a pioneer company roster and measure affiliation at the time of death by matching individuals to their obituaries which often list the church where a funeral was held. Among LDS pioneers who died as adults, 92 percent had an LDS funeral, 2 percent a funeral in another denomination, and 6 percent a funeral at a non religious location (e.g., funeral home). Religious switching increased across generations. Among pioneers&rsquo; grandchildren the shares were 89, 3 and 9 percent. Departure was more common among businessmen and higher earners, concentrated among those who stayed in the cities, and less common among former LDS missionaries and relatives of church leaders. Latter-day Saints in the four cities whose neighborhoods received more non-LDS residents were significantly more likely to have a funeral in another denomination, with a 10-percentage-point increase in a neighborhood&rsquo;s non-LDS share raising the probability by about 4 percentage points.</p>
-    <figure class="paper-figure wide">
+    <div class="paper-split">
+      <div class="paper-split-text">
+        <p>How does out-group contact shape religious switching? The question is hard to study because shocks to contact are rare and religion is seldom measured at the granular level contact effects require. We study Latter-day Saint (LDS) Utah, where the religious divide was unusually salient, records of religious affiliation are unusually rich, and contact with other faiths can be observed as it grew from close to zero. The transcontinental railroad changed the territory&rsquo;s religious composition quickly with the non-LDS share of residents in Salt Lake City and Ogden rising from about 4 percent in 1870 to 14 percent by 1880. Because LDS church members migrated to Utah in pioneer companies, we identify initial religious affiliation from presence in a pioneer company roster and measure affiliation at the time of death by matching individuals to their obituaries which often list the church where a funeral was held. Among LDS pioneers who died as adults, 92 percent had an LDS funeral, 2 percent a funeral in another denomination, and 6 percent a funeral at a non religious location (e.g., funeral home). Religious switching increased across generations. Among pioneers&rsquo; grandchildren the shares were 89, 3 and 9 percent. Departure was more common among businessmen and higher earners, concentrated among those who stayed in the cities, and less common among former LDS missionaries and relatives of church leaders. Latter-day Saints in the four cities whose neighborhoods received more non-LDS residents were significantly more likely to have a funeral in another denomination, with a 10-percentage-point increase in a neighborhood&rsquo;s non-LDS share raising the probability by about 4 percentage points.</p>
+      </div>
+      <figure class="paper-figure side">
       <a href="{{ '/images/figures/religious_switching_binscatter.png' | relative_url }}">
-        <img src="{{ '/images/figures/religious_switching_binscatter.png' | relative_url }}" width="1600" height="1067" alt="Binned scatter plot showing that Latter-day Saints in neighborhoods whose non-LDS share rose over a decade were more likely to have a non-LDS funeral, with an upward-sloping fitted line.">
+      <img src="{{ '/images/figures/religious_switching_binscatter.png' | relative_url }}" width="1600" height="1067" alt="Binned scatter plot showing that Latter-day Saints in neighborhoods whose non-LDS share rose over a decade were more likely to have a non-LDS funeral, with an upward-sloping fitted line.">
       </a>
-    </figure>
+      </figure>
+    </div>
   </details>
 </div>
 
