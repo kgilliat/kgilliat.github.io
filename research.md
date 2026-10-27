@@ -156,6 +156,10 @@ title: Research
 
 <div class="paper">
   <div class="paper-title">Marriage Markets and Church Building: The Economics of Polygamy in the American West</div>
+  <div class="plinks">[ <a class="ptoggle" role="button" tabindex="0" data-target="abs-marriage">Abstract</a> ]</div>
+  <div class="abstract-panel" id="abs-marriage">
+    <p>Who benefits and who loses when marriage norms change? Between 1852 and 1890, the Church of Jesus Christ of Latter-day Saints encouraged its members to practice polygamy while the federal government enacted increasingly strict laws to ban and prosecute it. This back-and-forth between church and state created a series of natural experiments which we exploit to study the impact of shifting the polygamy norm on both the marginal polygamists, and the marriage market as a whole. The largest shock was the Mormon Reformation of 1856&ndash;57, a religious revival movement that led to the doubling of the polygamy rate. By comparing marriageable-aged unmarried immigrant women who arrived during the Reformation to those who arrived just after, we find that a higher polygamy rate provided such women with better marriage options at no cost to their wellbeing. Specifically, they married sooner, to higher status and wealthier men, with no detectable harm to their longevity, fertility, or children. In contrast, we find that already-married women were harmed when their husband married an additional wife, with a shorter life expectancy of 1.2 years, consistent with a resource-sharing view of marriage. Finally, we show that polygamy did not crowd young men out of the marriage market. With high population growth and a tolerance for larger husband-wife age gaps, Utah sustained a moderate polygamy rate without creating a surplus of unmarried men.</p>
+  </div>
 </div>
 
 <div class="paper">
