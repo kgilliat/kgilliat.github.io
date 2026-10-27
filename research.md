@@ -37,17 +37,14 @@ title: Research
   .paper-title a:focus {
     text-decoration-color: #1a3a6c;
   }
-  .paper-docs {
-    font-size: 0.9em;
-    margin-top: 0.4em;
-  }
-  .paper-docs a {
-    color: #1a3a6c;
-  }
-  .page-note {
-    font-size: 0.9em;
-    color: #666;
-    margin: 0 0 1.6em;
+  /* Marks the titles that lead somewhere, so the four papers with a draft
+     are distinguishable from the four without at a glance. */
+  .title-tag {
+    font-weight: normal;
+    font-size: 0.78em;
+    color: #8c8c8c;
+    margin-left: 0.4em;
+    white-space: nowrap;
   }
   details.abstract {
     margin: 0.9em 0 0;
@@ -129,14 +126,11 @@ title: Research
     }
   }
 </style>
-<p class="page-note">Paper titles link to the most recent draft.</p>
-
 ## Job Market Paper
 
 <div class="paper">
-  <div class="paper-title"><a href="{{ '/papers/church_peers_on_politics_Gilliat_Brown.pdf' | relative_url }}">Partisan Effects of Religious Peer Groups</a></div>
+  <div class="paper-title"><a href="{{ '/papers/church_peers_on_politics_Gilliat_Brown.pdf' | relative_url }}">Partisan Effects of Religious Peer Groups</a> <span class="title-tag">[PDF]</span></div>
   <div class="paper-meta">with <a href="https://jacobrbrown.com">Jacob Brown</a></div>
-  <div class="paper-docs"><a href="{{ '/papers/JMP_slides.pdf' | relative_url }}">Slides</a></div>
   <div class="paper-split">
     <div class="paper-split-text">
       <div class="abstract-label">Abstract</div>
@@ -155,7 +149,7 @@ title: Research
 ## Working Papers
 
 <div class="paper">
-  <div class="paper-title"><a href="{{ '/papers/firm_closure_effects.pdf' | relative_url }}">The Effects of Firm Closures on Worker Outcomes: Evidence from Pre-War Utah</a></div>
+  <div class="paper-title"><a href="{{ '/papers/firm_closure_effects.pdf' | relative_url }}">The Effects of Firm Closures on Worker Outcomes: Evidence from Pre-War Utah</a> <span class="title-tag">[PDF]</span></div>
   <details class="abstract">
     <summary>Abstract</summary>
     <p>What was the role of firms in shaping workers&rsquo; careers historically and how much did it matter when their firm closed? To answer these questions, we construct an annual linked employer-employee panel for 1900&ndash;1940 from the city directories of Salt Lake City and Ogden, Utah, which listed every adult resident with his occupation, employer and address. Transcribing 76 editions and 3.6 million listings, we harmonize employers across editions, link men across editions and, through FamilySearch, to the complete-count censuses, and then validate the panel against the census. We show that firms played a major role in the pre-war urban economy. Most working-aged men were employed at a firm, and most career advancement occurred within firm. Using a stacked event study in which we compare men at failed firms to matched comparison men at surviving firms, we find that firm closure led to persistent negative effects on worker&rsquo;s labor market outcomes. Displaced men were 30 percentage points less likely to be listed with an employer a year later and 11 points less likely eight years later. One tenth moved away from the city and the rest were less likely to have steady employment and more likely to hold lower-status occupations. Marriage, fertility, and mortality were unaffected. Closures in 1930&ndash;1933, the early years of the Great Depression, were even more detrimental to worker outcomes.</p>
@@ -209,7 +203,7 @@ title: Research
 ## Other Publications
 
 <div class="paper">
-  <div class="paper-title"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6792459/">Mortality Risk and Fine Particulate Air Pollution in a Large, Representative Cohort of U.S. Adults</a></div>
+  <div class="paper-title"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6792459/">Mortality Risk and Fine Particulate Air Pollution in a Large, Representative Cohort of U.S. Adults</a> <span class="title-tag">[Published]</span></div>
   <div class="paper-meta">with C. Arden Pope III, Jacob S. Lefler, Majid Ezzati, Joshua D. Higbee, Julian D. Marshall, Sun-Young Kim, Matthew Bechle, Spencer E. Vernon, Allen L. Robinson, and Richard T. Burnett</div>
   <div class="paper-meta"><em>Environmental Health Perspectives</em> (2019)</div>
   <details class="abstract">
